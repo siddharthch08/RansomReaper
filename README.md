@@ -55,27 +55,27 @@ pip install -r requirements.txt
 
 ### **GUI Mode (Default)**  
 ```bash
-python smart_ransom_detector.py
+python RansomReaper.py
 ```
 
 ### **Headless Mode**  
 ```bash
-python smart_ransom_detector.py --nogui
+python RansomReaper.py --nogui
 ```
 
 ### **Simulate Ransomware Activity (Safe Test)**  
 ```bash
-python smart_ransom_detector.py --simulate --simulate-dir ./sim_target
+python RansomReaper.py --simulate --simulate-dir ./sim_target
 ```
 
 ### **Custom Watch Paths**  
 ```bash
-python smart_ransom_detector.py --watch "C:/MyFolder" "/home/user/projects"
+python RansomReaper.py --watch "C:/MyFolder" "/home/user/projects"
 ```
 
 ### **Enable Auto-Quarantine & Auto-Kill ( Dangerous)**  
 ```bash
-python smart_ransom_detector.py --auto-quarantine --auto-kill
+python RansomReaper.py --auto-quarantine --auto-kill
 ```
 
 ---
@@ -84,7 +84,7 @@ python smart_ransom_detector.py --auto-quarantine --auto-kill
 
 ```
 .
-├── smart_ransom_detector.py   # Main script
+├── RansomReaper.py   # Main script
 ├── requirements.txt           # Dependencies
 ├── README.md                  # Documentation
 ├── .gitignore                 # Ignore unnecessary files
